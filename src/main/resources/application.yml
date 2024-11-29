@@ -1,0 +1,24 @@
+arounddeal:
+  api:
+    key: AD_MLUL1yW2ZGSMz4q40BcCnpBzhPdzooSb
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: smtp.163.com
+    username: qq1098013518@163.com
+    password: QSgmaiGq2ppUF5Dq
+    default-encoding: UTF-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/ad?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+
+# Swagger 配置
+swagger:
+  enabled: true
